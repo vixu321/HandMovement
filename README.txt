@@ -14,4 +14,6 @@ Jak ten projekt działa?
 -Projekt ten wyłapuje jasne obiekty na tle ciemnego tła, oblicza zmianę położenia, dane te daje do pliku znajdujacym sie w scieżce @c:\temp\handMovementData.txt, stamtąd skrypt GM w edytorze Unity wyłapuje te dane i porusza obiektem w Unity. 
 
 
- 
+ Co jest potrzebne do tego projektu?
+
+-Aby projekt działał potrzebne jest zainstalowane Unity (na ten moment jest to wersja 2021.1.20f1) oraz Visual Studio, wszystkie potrzebne rzeczy powinny zostać pobrane wraz z klonowaniem projektu. 
