@@ -12,6 +12,7 @@ using AForge.Video.DirectShow;
 using static System.Threading.Timer;
 using System.Timers;
 using System.IO.Ports;
+using System.IO;
 
 namespace HandMovement
 {
@@ -21,6 +22,7 @@ namespace HandMovement
 
         SerialPort port;
 
+        string path = @"c:\temp\handMovementData.txt";
 
         public Form1()
         {
@@ -28,7 +30,6 @@ namespace HandMovement
             timer1.Start();
 
             initServo();
-
         }
 
         private void initServo()
@@ -201,7 +202,7 @@ namespace HandMovement
             {
                 for (int i = 0; i < bmp.Width; i += spacesBetweenChecks)
                 {
-                    if (bmp.GetPixel(i, j).R > 180 || bmp.GetPixel(i, j).G > 180 || bmp.GetPixel(i, j).B > 180)
+                    if (bmp.GetPixel(i, j).R > 160 || bmp.GetPixel(i, j).G > 160 || bmp.GetPixel(i, j).B > 160)
                     {
                         if (firstInstanceX == false)
                         {
@@ -290,6 +291,8 @@ namespace HandMovement
 
             float positionX = (currentPoint.X * 180) / screenWidth;
 
+            float positionY = (currentPoint.Y*180)  /screenHeight;
+
 
             gr.DrawLine(new Pen(Brushes.Red, 10), previousPoint, currentPoint);
 
@@ -297,6 +300,15 @@ namespace HandMovement
             {
                 port.WriteLine(positionX.ToString());
             }
+
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine(positionX.ToString()+';'+positionY.ToString());
+                sw.Close();
+                }
+            
+
+
         }
 
         
