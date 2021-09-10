@@ -1,0 +1,16 @@
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\HandMovement.exe.config
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\HandMovement.exe
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\HandMovement.pdb
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.dll
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.Video.DirectShow.dll
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.Video.dll
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.xml
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.Video.xml
+D:\Programowanie\HandMovement\HandMovement\bin\Debug\AForge.Video.DirectShow.xml
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.csprojAssemblyReference.cache
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.Form1.resources
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.Properties.Resources.resources
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.csproj.GenerateResource.cache
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.csproj.CopyComplete
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.exe
+D:\Programowanie\HandMovement\HandMovement\obj\Debug\HandMovement.pdb
