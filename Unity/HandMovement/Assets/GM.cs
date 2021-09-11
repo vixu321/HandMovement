@@ -27,7 +27,7 @@ public class GM : MonoBehaviour
         file = new System.IO.StreamReader(@"c:\temp\handMovementData.txt");
         x = float.Parse(file.ReadLine());
         print("X: "+x);
-        y = float.Parse(file.ReadLine());
+        y = -float.Parse(file.ReadLine());
         print("Y: "+y);
         GameObject.Find("Cube").transform.position = new Vector3(x, 1, y);
         file.Close();

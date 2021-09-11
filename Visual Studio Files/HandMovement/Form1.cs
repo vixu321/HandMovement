@@ -337,7 +337,8 @@ namespace HandMovement
             //do pliku handMovementData.txt zapisujemy potrzebne dane o ruchu
             using (StreamWriter sw = File.CreateText(path))
                 {
-                sw.WriteLine(positionX.ToString()+';'+positionY.ToString());
+                sw.WriteLine(positionX.ToString());
+                sw.WriteLine(positionY.ToString());
                 sw.Close();
                 }
             

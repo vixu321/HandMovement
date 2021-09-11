@@ -17,3 +17,4 @@ Jak ten projekt działa?
  Co jest potrzebne do tego projektu?
 
 -Aby projekt działał potrzebne jest zainstalowane Unity (na ten moment jest to wersja 2021.1.20f1) oraz Visual Studio, wszystkie potrzebne rzeczy powinny zostać pobrane wraz z klonowaniem projektu. 
+Dodatkowo potrzebna jest kamerka USB, im wyższa jakość kamerki tym bardziej wymagający sprzętowo będzie program, gdyby nie chciało się włączyć polecam zmienić zmienną "spacesBetweenChecks" w pliku Form1.cs (zmniejszy to czułość sprawdzania, lecz bardzo poprawi optymalizację)
